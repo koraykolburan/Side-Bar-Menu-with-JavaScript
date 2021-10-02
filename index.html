@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Toggle Menu Navigation with JavaScript</title>
+    <link
+      rel="stylesheet"
+      href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div id="side-menu" class="menu">
+      <a href="javascript:void(0)" class="closebtn" onclick="closeNav()"
+        >&times;</a
+      >
+      <div class="main-menu">
+        <h2>SideBar Menu</h2>
+        <a href="#"><i class="fa fa-home"> Home</i></a>
+        <a href="#"><i class="fa fa-users"> Covid-19</i></a>
+        <a href="#"><i class="fas fa-globe-europe"> World</i></a>
+        <a href="#"><i class="fa fa-book"> Books</i></a>
+        <a href="#"><i class="fas fa-hand-holding-usd"> Economy</i></a>
+        <a href="#"><i class="fa fa-pencil"> Authors</i></a>
+      </div>
+    </div>
+    <div class="content-area">
+      <span
+        id="span1"
+        style="font-size: 30px; cursor: pointer; font-weight: bold"
+        onclick="openNav()"
+        >&#9776; Menu</span
+      >
+      <div class="content-text">
+        <h2>To open the SideBar Menu</h2>
+        <h3>Tap the "<u>Menu icon</u>" on the left!</h3>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
